@@ -17,13 +17,14 @@
    are loaded via Java's Service Loader. This way, client defined analysis implementations can also be plugged in.
    
    
-
-============================
 #Pre-requisites
+============================
+
  - JDK 1.5 or higher
  - Maven
 
 #Set Up Instructions
+============================
   - Clone the repository using https://github.com/muralimanyam/Aconex.git
   - Run command "mvn clean install" at root location "Aconex"
   - Go into "target" directory.
