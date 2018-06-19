@@ -1,0 +1,8 @@
+com.challenge.aconex.analysis.AverageCountPerHourAnalysis
+com.challenge.aconex.analysis.PerFifteenMinsAnalysis
+com.challenge.aconex.analysis.PerHalfHourAnalysis
+com.challenge.aconex.analysis.PerHourAnalysis
+com.challenge.aconex.analysis.PerTwentyMinsAnalysis
+com.challenge.aconex.analysis.PeakHourAnalysis
+com.challenge.aconex.analysis.AverageSpeedPerHourAnalysis
+com.challenge.aconex.analysis.RoughDistanceBetweenCarsAnalysis
