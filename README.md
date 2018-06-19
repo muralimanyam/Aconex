@@ -1,4 +1,4 @@
-#Aconex Coding Challenge
+#Aconex Coding Challenge - Vehicle Survey Coding Challenge
 ===========================
 
 #Approach
@@ -17,6 +17,15 @@
    are loaded via Java's Service Loader. This way, client defined analysis implementations can also be plugged in.
    
    
+   The algorithmic steps are as :
+   
+       - Gather the input file location.
+	   - Load the InputFileParser service and pass file location to InputFileParser service that would read the contents and return a List of survey data.
+	   - Load the Vehicle Record Service and pass List of survey data and get back List of Vehicle records.
+	   - Load Survey Store service and pass Vehicle records to it.
+	   - Load all the analysis components and initiate them with store service.
+	   - Call print analaysis method on analysis components.
+   
 #Pre-requisites
 ============================
 
@@ -26,7 +35,7 @@
 #Set Up Instructions
 ============================
   - Clone the repository using https://github.com/muralimanyam/Aconex.git
-  - Run command "mvn clean install" at root location "Aconex"
+  - Go into "Aconex" directory and run command "mvn clean install".
   - Go into "target" directory.
   - run command "java -jar VehicleSurvey-0.0.1-SNAPSHOT.jar <path-to-data-file>"
   - The results are printed in console.
